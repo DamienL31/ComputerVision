@@ -2,8 +2,8 @@
 
 Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Vision Group. Il est disponible sous 2 formats soit par Kaggle soit en accédant au fichier .tar.gz présent ci-dessous. 
 
-![45010](https://github.com/user-attachments/assets/7511e5f1-31ee-4dfe-9885-2908109dcfe7) : Taille 125 Mo, images classées par dossier
+📷 L'ensemble de données Caltech101 contient des images de 101 catégories d'objets (par exemple, « hélicoptère », “éléphant” et « chaise », etc.) et une catégorie d'arrière-plan qui contient les images ne faisant pas partie des 101 catégories d'objets. Pour chaque catégorie d'objets, il y a entre 40 et 800 images, tandis que la plupart des classes ont environ 50 images. La résolution de l'image est d'environ 300×200 pixels et la taille du dossier est de 125Mo. 📷
 
-![1612636](https://github.com/user-attachments/assets/19dd6de7-cb96-4a16-ad3c-99c383883850) :[Telecharger le Dataset via Google Drive] (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo)
+📌 (https://www.kaggle.com/datasets/imbikramsaha/caltech-101) 📌
 
-![1612636](https://github.com/user-attachments/assets/19dd6de7-cb96-4a16-ad3c-99c383883850) : [Par Kaggle] (https://www.kaggle.com/datasets/imbikramsaha/caltech-101)
+📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
