@@ -1,6 +1,20 @@
 ## 💼 Dataset - 101_ObjectCategories 
+## Table des Matières
 
-Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Vision Group. Il est disponible sous 2 formats soit par Kaggle soit en accédant au fichier .tar.gz présent ci-dessous. 
+- [Description du Projet et ressources](#description-du-projet-et-ressources)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Étapes du Projet](#étapes-principales-du-projet)
+  - [Partie 1 : Extraction et explocaration des données](#partie-1--extraction-et-exploration-des-données)
+  - [Partie 2 : Visualisation image et traitement](#partie-2--visualisation-image-et-traitement)
+  - [Partie 3 : Modélisation et détections avancées](#partie-3--Modélisation-et-détections-avancées)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Ressources Nécessaires](#ressources-nécessaires)
+- [Auteur](#auteur)
+
+## Description du Projet et ressources
+
+Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Vision Group. Il est disponible sous 2 formats soit par Kaggle soit en accédant au fichier .tar.gz présent ci-dessous. Il a pour but d'analyser, traiter des images ainsi que le développement de plusieurs modèles pour la classification et le traitement tels un modèle CNN, un modèle SVM pour la classification et l'utilisation d'un modèle YoloV5 pour la détection d'objets au sein d'une image. 
 
 📷 L'ensemble de données Caltech101 contient des images de 101 catégories d'objets (par exemple, « hélicoptère », “éléphant” et « chaise », etc.) et une catégorie d'arrière-plan qui contient les images ne faisant pas partie des 101 catégories d'objets. Pour chaque catégorie d'objets, il y a entre 40 et 800 images, tandis que la plupart des classes ont environ 50 images. La résolution de l'image est d'environ 300×200 pixels et la taille du dossier est de 125Mo. 📷
 
@@ -8,15 +22,25 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
 
-🕜 *Etapes principal du Notebook* 🕜
+## Technologies Utilisées : 
 
-📂 **1. Extraction et exploration des données** : 📂
+- Python dans un environnement Google Collab,
+- tarfile
+- OpenCV2, cv2.kmeans,
+- Pandas, NumPy, Matplotlib,
+- TensorFlow, Keras, PyTorch,
+- Yolov5
+- Scikit-image, ImageDataGenerator, Scikit-learn,
+
+## 🕜 Etapes principales du projet 🕜
+
+📂 ### Partie 1 : Extraction et exploration des données 📂
 
 - Parcours de l'arborescence des classses, affichage des sous classes et sous dossiers correspondant aux catégories d'objets.
   
 - Décompte du nombre d'images pour voir la répartition par dossiers et classement des classes par ordre décroissant d'occurence.
 
-🖼️ **2. Visualisation d'une image et traitement** : 🖼️
+🖼️ ### Partie 2 : Visualisation image et traitement 🖼️
 
 - Chargement d'une image, conversion en RGB.
 
@@ -24,7 +48,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 - Rotation de l'image, application du detecteur HOG (description d'image via analyse de l'orientation des gradients), application k means 3 couleurs pour segmentation l'image en zone de couleurs. 
 
-🤖 **3. Modélisation et détection avancée** : 🤖
+🤖  ### Partie 3 : Modélisation et détections avancées 🤖
 
 - Prétraitement des images avec "ImageDataGenerator" (redimensionnement, normalisation, rotation, zoom..)
   
@@ -34,5 +58,9 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 - Création d'un modèle SVM pour comparaison (Extraction des descripteurs HOG, création Dataset (features, etiquettes), split données et évaluation. Accuracy : 0.53
 
-- Installation modèle pré entrainé **YOLOv5** via Pytorch + application sur une classe spécifique pour detection + visualisation. 
+- Installation modèle pré entrainé **YOLOv5** via Pytorch + application sur une classe spécifique pour detection + visualisation.
+
+## Auteur 
+Étudiant en Data Science
+damien.lauger.edu@groupe-gema.com
 
