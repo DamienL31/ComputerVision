@@ -19,7 +19,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
 
-## Technologies Utilisées
+## Technologies Utilisees
 
 - Python dans un environnement Google Collab,
 - tarfile
@@ -31,7 +31,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 ## Etapes principales du projet
 
-## Partie 1 : Extraction et exploration des données
+## 📥 Partie 1 : Extraction et exploration des donnees📥
 
 - Parcours de l'arborescence des classses, affichage des sous classes et sous dossiers correspondant aux catégories d'objets.
   
