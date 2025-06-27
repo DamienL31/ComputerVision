@@ -2,7 +2,7 @@
 ## Table des Matières
 
 - [Description du Projet et ressources](#description-du-projet-et-ressources)
-- [Technologies Utilisées](https://github.com/DamienL31/ComputerVision/blob/main/README.md#technologies-utilisees)
+- [Technologies Utiles](https://github.com/DamienL31/ComputerVision/blob/main/README.md#technologies-utiles)
 - [Partie 1 : Extraction et exploration des données](https://github.com/DamienL31/ComputerVision/blob/main/README.md#-partie-1--extraction-et-exploration-des-donnees)
 - [Partie 2 : Visualisation image et traitement](https://github.com/DamienL31/ComputerVision/blob/main/README.md#technologies-utilisees)
 - [Partie 3 : Modélisation et détections avancées](#partie-3--modelisation-et-detections-avancees)
@@ -18,7 +18,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
 
-## Technologies Utilisées
+## Technologies Utiles
 
 - Python dans un environnement Google Collab,
 - tarfile
