@@ -2,11 +2,11 @@
 ## Table des Matières
 
 - [Description du Projet et ressources](#description-du-projet-et-ressources)
-- [Technologies Utilisées](#technologies-utilisees)
+- [Technologies Utilisées](#technologies-utilisees-)
 - [Étapes principales du projet](#etapes-principales-du-projet)
 - [Partie 1 : Extraction et exploration des données](#partie-1--extraction-et-exploration-des-donnees)
 - [Partie 2 : Visualisation image et traitement](#partie-2--visualisation-image-et-traitement)
-- [Partie 3 : Modélisation et détections avancées](#partie-3--Modelisation-et-detections-avancees)
+- [Partie 3 : Modélisation et détections avancées](#partie-3--modelisation-et-detections-avancees)
 - [Auteur](#auteur)
 
 ## Description du Projet et ressources
@@ -19,7 +19,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
 
-## Technologies Utilisées 
+## Technologies Utilisées
 
 - Python dans un environnement Google Collab,
 - tarfile
@@ -45,7 +45,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 - Rotation de l'image, application du detecteur HOG (description d'image via analyse de l'orientation des gradients), application k means 3 couleurs pour segmentation l'image en zone de couleurs. 
 
-## Partie 3 : Modélisation et détections avancées
+## Partie 3 : Modelisation et detections avancees
 
 - Prétraitement des images avec "ImageDataGenerator" (redimensionnement, normalisation, rotation, zoom..)
   
