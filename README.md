@@ -29,9 +29,7 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 - Yolov5
 - Scikit-image, ImageDataGenerator, Scikit-learn,
 
-## Etapes principales du projet
-
-## 📥 Partie 1 : Extraction et exploration des donnees📥
+## 📥 Partie 1 : Extraction et exploration des donnees
 
 - Parcours de l'arborescence des classses, affichage des sous classes et sous dossiers correspondant aux catégories d'objets.
   
