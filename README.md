@@ -8,21 +8,23 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 📥 Telecharger le Dataset via Google Drive (https://drive.google.com/uc?id=15Y8KiBpln7OHYQIRBlg_w4aNkXKNQumo) 📥
 
-🕜 Etapes principal du Notebook 🕜
+🕜 *Etapes principal du Notebook* 🕜
 
-📂 #1. Extraction et exploration des données : 📂
+📂 **1. Extraction et exploration des données** : 📂
 
 - Parcours de l'arborescence des classses, affichage des sous classes et sous dossiers correspondant aux catégories d'objets.
   
 - Décompte du nombre d'images pour voir la répartition par dossiers et classement des classes par ordre décroissant d'occurence.
 
-🖼️ #2. Visualisation d'une image et traitement🖼️
+🖼️ **2. Visualisation d'une image et traitement** : 🖼️
 
 - Chargement d'une image, conversion en RGB.
 
 - Application d'un filtrage Gaussian pour lisser l'image et réduire le bruit, conversion de l'image en gris et application d'un filtrage Canny pour détection des bors significatifs et réduire les détails non pertinents + Affichage comparatif image originale et floutée.
 
-🤖 #3. Modélisation et détection avancée 🤖
+- Rotation de l'image, application du detecteur HOG (description d'image via analyse de l'orientation des gradients), application k means 3 couleurs pour segmentation l'image en zone de couleurs. 
+
+🤖 **3. Modélisation et détection avancée** : 🤖
 
 - Prétraitement des images avec "ImageDataGenerator" (redimensionnement, normalisation, rotation, zoom..)
   
@@ -34,6 +36,3 @@ Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Visi
 
 - Installation modèle pré entrainé **YOLOv5** via Pytorch + application sur une classe spécifique pour detection + visualisation. 
 
-
-
-- Rotation de l'image, application du detecteur HOG (description d'image via analyse de l'orientation des gradients), application k means 3 couleurs pour segmentation l'image en zone de couleurs. 
