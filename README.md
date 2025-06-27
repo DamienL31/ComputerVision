@@ -7,9 +7,6 @@
   - [Partie 1 : Extraction et explocaration des données](#partie-1--extraction-et-exploration-des-données)
   - [Partie 2 : Visualisation image et traitement](#partie-2--visualisation-image-et-traitement)
   - [Partie 3 : Modélisation et détections avancées](#partie-3--Modélisation-et-détections-avancées)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Ressources Nécessaires](#ressources-nécessaires)
 - [Auteur](#auteur)
 
 ## Description du Projet et ressources
