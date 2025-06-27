@@ -3,8 +3,8 @@
 
 - [Description du Projet et ressources](#description-du-projet-et-ressources)
 - [Technologies Utilisées](#technologies-utilisées)
-- [Étapes du Projet](#étapes-principales-du-projet)
-  - [Partie 1 : Extraction et exploration des données](#partie-1--extraction-et-exploration-des-données-📂)
+- [Étapes principales du projet](#étapes-principales-du-projet-🕜)
+  - [Partie 1 : Extraction et exploration des données](#partie-1--extraction-et-exploration-des-données)
   - [Partie 2 : Visualisation image et traitement](#partie-2--visualisation-image-et-traitement)
   - [Partie 3 : Modélisation et détections avancées](#partie-3--Modélisation-et-détections-avancées)
 - [Auteur](#auteur)
