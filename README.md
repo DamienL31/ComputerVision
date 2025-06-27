@@ -3,7 +3,7 @@
 
 - [Description du Projet et ressources](#description-du-projet-et-ressources)
 - [Technologies Utiles](https://github.com/DamienL31/ComputerVision/blob/main/README.md#technologies-utiles)
-- [Partie 1 : Extraction et exploration des données](https://github.com/DamienL31/ComputerVision/blob/main/README.md#-partie-1--extraction-et-exploration-des-donnees)
+- [Partie 1 : Extraction et exploration des données](https://github.com/DamienL31/ComputerVision/blob/main/README.md#partie-1--extraction-et-exploration-des-donn%C3%A9es-)
 - [Partie 2 : Visualisation image et traitement](https://github.com/DamienL31/ComputerVision/blob/main/README.md#technologies-utilisees)
 - [Partie 3 : Modélisation et détections avancées](#partie-3--modelisation-et-detections-avancees)
 - [Auteur](#auteur)
