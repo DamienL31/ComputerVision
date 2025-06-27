@@ -4,11 +4,11 @@
 - [Description du Projet et ressources](#description-du-projet-et-ressources)
 - [Technologies Utilisées](#technologies-utilisees-)
 - [Étapes principales du projet](#etapes-principales-du-projet)
-- [Partie 1 : Extraction et exploration des donnees](#partie-1--extraction-et-exploration-des-donnees)
+- [Partie 1 : Extraction et exploration des donnees](https://github.com/DamienL31/ComputerVision/blob/main/README.md#-partie-1--extraction-et-exploration-des-donnees)
 - [Partie 2 : Visualisation image et traitement](#partie-2--visualisation-image-et-traitement)
 - [Partie 3 : Modélisation et détections avancées](#partie-3--modelisation-et-detections-avancees)
 - [Auteur](#auteur)
-
+- 
 ## Description du Projet et ressources
 
 Ce projet utilise le dataset **101 Object Categories** provenant de Caltech Vision Group. Il est disponible sous 2 formats soit par Kaggle soit en accédant au fichier .tar.gz présent ci-dessous. Il a pour but d'analyser, traiter des images ainsi que le développement de plusieurs modèles pour la classification et le traitement tels un modèle CNN, un modèle SVM pour la classification et l'utilisation d'un modèle YoloV5 pour la détection d'objets au sein d'une image. 
